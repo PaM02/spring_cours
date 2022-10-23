@@ -1,19 +1,19 @@
 package comopenclassroom.helloworld.model;
 
 public class HelloWorld {
-	private String valeur = "Hello world";
+	private String value = "Hello World!";
 
-	public String getValeur() {
-		return valeur;
+	public String getvalue() {
+		return value;
 	}
 
-	public void setValeur(String valeur) {
-		this.valeur = valeur;
+	public void setvalue(String value) {
+		this.value = value;
 	}
 
 	@Override
 	public String toString() {
 
-		return valeur;
+		return value;
 	}
 }
